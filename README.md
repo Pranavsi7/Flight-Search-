@@ -3,6 +3,7 @@
 A robust Java Spring MVC web application for searching and managing flights, featuring secure user and admin interfaces, bulk data upload, and configuration management.
 
 ---
+![image](https://github.com/user-attachments/assets/1ff5e552-cffc-4adf-9d26-5c6860f5e03b)
 
 ## 🌟 Overview
 
