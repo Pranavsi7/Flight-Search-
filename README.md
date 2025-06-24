@@ -23,8 +23,10 @@ SearchFlights is a web-based flight management and search system. Users can regi
   - View and clear upload history.
 - **Logging:** SLF4J, Logback, and Log4j for comprehensive logging.
 - **Testing:** JUnit 5 and Mockito for unit and integration testing.
+![image](https://github.com/user-attachments/assets/b8795d44-1fcb-492b-80b3-9e40a6044ed2)
 
 ---
+![image](https://github.com/user-attachments/assets/ad81fd6e-396b-43df-ac98-8414f7daf4f7)
 
 ## 🛠️ Tech Stack
 
