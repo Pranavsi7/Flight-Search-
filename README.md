@@ -61,9 +61,11 @@ SearchFlights is a web-based flight management and search system. Users can regi
 - Reduced manual admin errors by **25%** through validation workflows
 
 ## 🏗️ System Architecture
+```
 Controller Layer → Service Layer → DAO Layer → Database
 ↓ ↓ ↓
 JSP UI Business Logic Hibernate ORM
+```
 
 - MVC architecture with clear separation of concerns
 - Hibernate ORM for efficient database access
@@ -82,7 +84,35 @@ JSP UI Business Logic Hibernate ORM
 - Bulk upload flight data (CSV, Excel, Word, XML)
 - Manage application configuration files
 - View and clear upload history
-  
+  ## ▶️ How to Run Locally
+
+### Prerequisites
+- Java 11+
+- MySQL 8+
+- Apache Tomcat 9
+- Maven
+
+### Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/Pranavsi7/Flight-Search-
+
+# Navigate to the project directory
+cd Flight-Search-
+
+# Build the project
+mvn clean install
+```
+Deployment
+
+Deploy the generated WAR file to Apache Tomcat 9
+
+OR run directly from IDE (Eclipse / IntelliJ)
+
+Application URL
+
+➡️ http://localhost:8080/SearchFlights
 
 ## 👤 Author
 
@@ -91,5 +121,6 @@ Final-year B.Tech CSE Student | Backend-focused Developer
 
 🔗 GitHub: https://github.com/Pranavsi7  
 🔗 LinkedIn: https://www.linkedin.com/in/pranav-singh-8a802424b/
+
 
 
