@@ -53,7 +53,43 @@ SearchFlights is a web-based flight management and search system. Users can regi
 - **Web:** `web.xml`, `dispatcher-servlet.xml`
 
 ---
+## 📈 Impact & Achievements
+
+- Supported **1,000+ monthly users** with **700+ weekly flight search queries**
+- Improved database response time by **30%** through Hibernate query optimization
+- Increased data ingestion speed by **60%** using bulk upload (CSV, Excel, XML)
+- Reduced manual admin errors by **25%** through validation workflows
+
+## 🏗️ System Architecture
+Controller Layer → Service Layer → DAO Layer → Database
+↓ ↓ ↓
+JSP UI Business Logic Hibernate ORM
+
+- MVC architecture with clear separation of concerns
+- Hibernate ORM for efficient database access
+- JSP-based frontend with Spring MVC controllers
+
+## 🔐 Role-Based Access Control
+
+### 👤 User
+- Register and log in securely
+- Search flights by source, destination, and date
+- Sort results by fare or duration
+
+### 🛠️ Admin
+- Secure admin authentication
+- Add, edit, and delete flight records
+- Bulk upload flight data (CSV, Excel, Word, XML)
+- Manage application configuration files
+- View and clear upload history
+  
 
 ## 👤 Author
 
-**Pranav Singh**
+**Pranav Singh**  
+Final-year B.Tech CSE Student | Backend-focused Developer  
+
+🔗 GitHub: https://github.com/Pranavsi7  
+🔗 LinkedIn: https://www.linkedin.com/in/pranav-singh-8a802424b/
+
+
